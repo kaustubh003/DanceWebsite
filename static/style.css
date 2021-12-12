@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 14px;
+  font-size: 29px;
+  margin-right: 40px;
+}
+
+#logo img {
+  height: 39px;
+  filter: invert(1);
+}
+
+#navbar {
+  background-color: black;
+  padding: 13px 30px;
+  font-family: "Open Sans Condensed";
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#navbar li {
+  list-style: none;
+}
+
+#navbar li a {
+  text-decoration: none;
+  padding: 13px 30px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#navbar li a:hover {
+  color: rgb(255, 177, 225);
+}
+
+#introSection {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: center / cover no-repeat url("../static/bg.jpg");
+  font-family: "Oswald";
+  font-size: 60px;
+  background-color: red;
+  height: 450px;
+  padding-bottom: 40px;
+}
+
+#introSection div.small {
+  font-size: 30px;
+  padding: 2px 10px;
+  margin: -12px;
+}
+
+#missionSection {
+  height: 330px;
+  width: 67%;
+  margin: auto;
+}
+
+#missionSection h2 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 12px;
+  font-family: "Bree Serif";
+  font-weight: 500;
+  color: black;
+}
+
+.card {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 30%;
+  margin: 23px 15px;
+  height: 200px;
+}
+
+.card h3 {
+  text-align: center;
+  font-family: "Poppins", serif;
+  margin: 0 6px;
+  margin-top: 10px;
+}
+
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img{
+  height: 140px;
+  margin: 0px 0px;
+  padding: 0 14px;
+}
+
+.card-img img{
+  height: inherit;
+}
+
+.card-content{
+  padding: 0 10px;
+}
+
+.card-content p{
+  font-size: 19px;
+}
+
+#sponsorSection {
+  background-color: rgba(5, 5, 60, 0.91);
+  height: 300px;
+}
+
+#sponsorSection h2 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 12px;
+  font-family: "Bree Serif";
+  font-weight: 500;
+  color: white;
+}
+
+#sponsors{
+  height: 120px;
+max-width: 1000px;
+margin: auto;
+}
+
+.spImage{
+  height: 176px;
+  margin: 20px;
+}
+
+#footer {
+  background-color: black;
+  height: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "bree serif";
+}

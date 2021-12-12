@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.container {
+  min-width: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 45px;
+}
+
+.container h1 {
+  font-family: "Open Sans Condensed";
+}
+
+.myInput {
+  font-size: 16px;
+  width: 150%;
+  padding: 9px;
+  margin: 8px;
+  border: 2px solid red;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  outline: none;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 9px 16px;
+  font-size: 16px;
+  border: 2px solid red;
+  color: white;
+  background: black;
+  border-radius: 13px;
+  cursor: pointer;
+  outline: none;
+  margin: 26px;
+}
